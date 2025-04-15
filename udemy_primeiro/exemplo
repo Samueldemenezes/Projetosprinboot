@@ -6,3 +6,6 @@ modelo ok
 
 Repositorio de Produto ok
     obterTodos, obterPorId, adicionar, atualizar, deletar.
+
+Seviço de produto
+     obterTodos, obterPorId, adicionar, atualizar, deletar.
