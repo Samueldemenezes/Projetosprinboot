@@ -8,14 +8,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import br.com.teste.udemy_primeiro.model.Produto;
-import br.com.teste.udemy_primeiro.repository.ProdutoRepository;
+import br.com.teste.udemy_primeiro.repository.ProdutoRepository_old;
 
 @Service
 
 public class ProdutoService {
 
     @Autowired
-    private ProdutoRepository produtoRepository;
+    private ProdutoRepository_old produtoRepository;
     /**
      * Metodo para retornar uma lista de produtos 
      * @return Lista de produtos 
@@ -51,6 +51,7 @@ public class ProdutoService {
     /**
  * Metodo para atulaizar o produto na lista
  * @param produto que será atualizado.
+ * @param id do produto
  * @return produto após atualizar a lista.
 */
     public Produto atualizar (Integer id, Produto produto){

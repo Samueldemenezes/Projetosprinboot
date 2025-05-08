@@ -9,3 +9,6 @@ Repositorio de Produto ok
 
 Seviço de produto
      obterTodos, obterPorId, adicionar, atualizar, deletar.
+
+Controller de produtos
+     obterTodos, obterPorId, adicionar, atualizar, deletar.
